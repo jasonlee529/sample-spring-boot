@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Bean;
 import java.util.Arrays;
 
 @SpringBootApplication
-@EnableAutoConfiguration
 public class Application {
 
     public static void main(String[] args) {
