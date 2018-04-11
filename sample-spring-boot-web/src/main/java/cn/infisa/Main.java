@@ -13,10 +13,10 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
-public class Application {
+public class Main {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Main.class, args);
     }
 
     @Bean
