@@ -21,10 +21,12 @@ public class UserController {
     public User save(@RequestBody User user) {
         return userService.save(user);
     }
-    @RequestMapping(value="{id}",method = RequestMethod.PUT)
-    public User update(@PathVariable Long id,@RequestBody User user) {
-        return userService.update(id,user);
+
+    @RequestMapping(value = "{id}", method = RequestMethod.PUT)
+    public User update(@PathVariable Long id, @RequestBody User user) {
+        return userService.update(id, user);
     }
+
     @RequestMapping(method = RequestMethod.GET)
     public List<User> save() {
         return userService.findAll();
