@@ -52,6 +52,7 @@ spring-boot-starter-logging 依赖有
 ```
 ### configuration
 configuration是logback.xml的根节点，所有的配置项目都要位于configuration元素下面，可配置的属性有：
+
 | 属性名称         | 默认值  | 说明|
 |----------------|--------|---------------------------|
 | scan           | true   |当此属性设置为true时，配置文件如果发生改变，将会被重新加载|
