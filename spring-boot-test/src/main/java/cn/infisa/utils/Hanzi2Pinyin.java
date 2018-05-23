@@ -77,4 +77,20 @@ public class Hanzi2Pinyin {
         return sb.toString();
 
     }
+    public String parsePinyin(String in) {
+        StringBuilder normal = new StringBuilder();
+        StringBuilder uppper = new StringBuilder();
+        StringBuilder lower = new StringBuilder();
+        StringBuilder first = new StringBuilder();
+        for (char c : in.toCharArray()) {
+            String s = getCharPinYin(c);
+            normal.append(s);
+            uppper.append(s.toUpperCase());
+            lower.append(s.toLowerCase());
+            first.append(s.charAt(0));
+        }
+        String seq = "|";
+        normal.append(seq).append(uppper).append(seq).append(lower).append(seq).append(first);
+        return normal.toString();
+    }
 }

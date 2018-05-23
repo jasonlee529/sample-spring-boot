@@ -17,36 +17,32 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
-public class Zhengzhuang {
+public class Xiongtong {
 
     Hanzi2Pinyin h2p = new Hanzi2Pinyin();
 
     @Test
     public void test1() throws BadHanyuPinyinOutputFormatCombination, IOException {
-        Resource resource = new ClassPathResource("symptom.csv");
+        Resource resource = new ClassPathResource("xiongtong.csv");
         Stream<String> stream = Files.lines(Paths.get(resource.getFile().getAbsolutePath()));
         List<Map<String, Object>> datas = new ArrayList();
         Map<String, Map<String, Object>> keys = new HashMap<>();
         stream.forEach(str -> {
             String[] arrs = StringUtils.split(str, ",");
             Map<String, Object> map = new HashMap<>();
-            String key = arrs[1];
-            if (keys.containsKey(key)) {
-                map = keys.get(key);
-            } else {
-                keys.put(arrs[1], map);
-                datas.add(map);
-                map.put("label", arrs[1]);
-                map.put("children", new ArrayList<Map<String, Object>>());
+            datas.add(map);
+            map.put("label",arrs[0]);
+            List<Map<String, Object>> children = new ArrayList<>();
+            map.put("children",children);
+            for(int i=1;i<arrs.length;i++){
+                String key = arrs[i];
+                Map<String, Object> child = new HashMap();
+                child.put("label", key);
+                child.put("search", h2p.parsePinyin(key));
+                children.add(child);
             }
-            List<Map<String, Object>> children = (List<Map<String, Object>>) map.get("children");
-            Map<String, Object> child = new HashMap();
-            children.add(child);
-            child.put("label", arrs[2]);
-            child.put("type", "plain");
-            child.put("search", h2p.parsePinyin(arrs[2]));
         });
-        Files.write(Paths.get("zhenduan.txt"), JsonMapper.nonDefaultMapper().toJson(datas).getBytes());
+        Files.write(Paths.get("xiongtong.txt"), JsonMapper.nonDefaultMapper().toJson(datas).getBytes());
     }
 
 
