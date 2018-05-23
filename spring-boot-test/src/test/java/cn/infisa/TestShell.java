@@ -18,15 +18,13 @@ public class TestShell {
     }
     @Test
     public void testShell() {
-        String cmd = "python3 /opt/danxi/daniDeal.py";
-        System.out.println(exec(cmd));
+//        String cmd = "python3 /opt/danxi/daniDeal.py";
+//        System.out.println(exec(cmd));
         executeCommand("ping -c 3 www.baidu.com");
     }
 
     private String executeCommand(String command) {
-
         StringBuffer output = new StringBuffer();
-
         Process p;
         try {
             p = Runtime.getRuntime().exec(command);
@@ -34,18 +32,15 @@ public class TestShell {
             System.out.println(exitCode);
             BufferedReader reader =
                     new BufferedReader(new InputStreamReader(p.getInputStream()));
-
             String line = "";
             while ((line = reader.readLine()) != null) {
                 output.append(line + "\n");
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         }
         System.out.println(output.toString());
         return output.toString();
-
     }
 
     public static Object exec(String cmd) {
