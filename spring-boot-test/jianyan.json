@@ -1,0 +1,146 @@
+[
+  {
+    "children": [
+      {
+        "children": [],
+        "label": "肌酸激酶同工酶"
+      },
+      {
+        "children": [],
+        "label": "cTnT"
+      },
+      {
+        "children": [],
+        "label": "cTnI"
+      },
+      {
+        "children": [],
+        "label": "肌酸激酶"
+      },
+      {
+        "children": [],
+        "label": "血糖"
+      },
+      {
+        "children": [],
+        "label": "肌酐"
+      }
+    ],
+    "label": "常见检验项目"
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "label": "乳酸脱氢酶"
+      },
+      {
+        "children": [],
+        "label": "乳酸脱氢酶"
+      },
+      {
+        "children": [],
+        "label": "肌酸激酶同工酶"
+      },
+      {
+        "children": [],
+        "label": "肌酸激酶"
+      },
+      {
+        "children": [],
+        "label": "a-羟丁酸脱氢酶"
+      },
+      {
+        "children": [],
+        "label": "血淀粉酶"
+      },
+      {
+        "children": [],
+        "label": "肌红蛋白"
+      },
+      {
+        "children": [],
+        "label": "肌钙蛋白T"
+      },
+      {
+        "children": [],
+        "label": "肌钙蛋白I测定"
+      },
+      {
+        "children": [],
+        "label": "B型钠尿肽测定。"
+      }
+    ],
+    "label": "酶学检查"
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "label": "白细胞计数"
+      },
+      {
+        "children": [],
+        "label": "淋巴细胞计数"
+      },
+      {
+        "children": [],
+        "label": "淋巴细胞百分比"
+      },
+      {
+        "children": [],
+        "label": "单核细胞计数"
+      },
+      {
+        "children": [],
+        "label": "单核细胞百分比"
+      },
+      {
+        "children": [],
+        "label": "血红蛋白"
+      },
+      {
+        "children": [],
+        "label": "血小板计数。"
+      }
+    ],
+    "label": "血常规"
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "label": "丙氨酸氨基转移酶"
+      },
+      {
+        "children": [],
+        "label": "碱性磷酸酶"
+      },
+      {
+        "children": [],
+        "label": "胆碱酯酶"
+      },
+      {
+        "children": [],
+        "label": "总胆红素测定"
+      },
+      {
+        "children": [],
+        "label": "直接胆红素测定"
+      },
+      {
+        "children": [],
+        "label": "间接胆红素测定"
+      },
+      {
+        "children": [],
+        "label": "Y-谷氨酰胺转移酶"
+      },
+      {
+        "children": [],
+        "label": "总胆汁酸"
+      }
+    ],
+    "label": "肝功能"
+  }
+]
