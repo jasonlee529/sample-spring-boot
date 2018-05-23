@@ -45,8 +45,8 @@ public class Hanzi2Pinyin {
         }
 
         //pinyin4j规则，当转换的符串不是汉字，就返回null
-        if (pinyin == null) {
-            return null;
+        if (pinyin == null|| pinyin.length==0 ) {
+            return  String.valueOf(pinYinStr);
         }
 
         //多音字会返回一个多音字拼音的数组，pinyiin4j并不能有效判断该字的读音
