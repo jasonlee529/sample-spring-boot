@@ -2,27 +2,93 @@
   {
     "children": [
       {
-        "children": [],
+        "search": "jisuanjimeitonggongmei|JISUANJIMEITONGGONGMEI|jisuanjimeitonggongmei|jsjmtgm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "肌酸激酶同工酶"
       },
       {
-        "children": [],
+        "search": "cTnT|CTNT|ctnt|cTnT",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "cTnT"
       },
       {
-        "children": [],
+        "search": "cTnI|CTNI|ctni|cTnI",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "cTnI"
       },
       {
-        "children": [],
+        "search": "jisuanjimei|JISUANJIMEI|jisuanjimei|jsjm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "肌酸激酶"
       },
       {
-        "children": [],
+        "search": "xuetang|XUETANG|xuetang|xt",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "血糖"
       },
       {
-        "children": [],
+        "search": "jigan|JIGAN|jigan|jg",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "肌酐"
       }
     ],
@@ -31,43 +97,153 @@
   {
     "children": [
       {
-        "children": [],
+        "search": "rusuantuoqingmei|RUSUANTUOQINGMEI|rusuantuoqingmei|rstqm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "乳酸脱氢酶"
       },
       {
-        "children": [],
+        "search": "rusuantuoqingmei|RUSUANTUOQINGMEI|rusuantuoqingmei|rstqm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "乳酸脱氢酶"
       },
       {
-        "children": [],
+        "search": "jisuanjimeitonggongmei|JISUANJIMEITONGGONGMEI|jisuanjimeitonggongmei|jsjmtgm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "肌酸激酶同工酶"
       },
       {
-        "children": [],
+        "search": "jisuanjimei|JISUANJIMEI|jisuanjimei|jsjm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "肌酸激酶"
       },
       {
-        "children": [],
+        "search": "a-qiangdingsuantuoqingmei|A-QIANGDINGSUANTUOQINGMEI|a-qiangdingsuantuoqingmei|a-qdstqm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "a-羟丁酸脱氢酶"
       },
       {
-        "children": [],
+        "search": "xuedianfenmei|XUEDIANFENMEI|xuedianfenmei|xdfm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "血淀粉酶"
       },
       {
-        "children": [],
+        "search": "jihongdanbai|JIHONGDANBAI|jihongdanbai|jhdb",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "肌红蛋白"
       },
       {
-        "children": [],
+        "search": "jigaidanbaiT|JIGAIDANBAIT|jigaidanbait|jgdbT",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "肌钙蛋白T"
       },
       {
-        "children": [],
+        "search": "jigaidanbaiIceding|JIGAIDANBAIICEDING|jigaidanbaiiceding|jgdbIcd",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "肌钙蛋白I测定"
       },
       {
-        "children": [],
+        "search": "Bxingnaniaotaiceding。|BXINGNANIAOTAICEDING。|bxingnaniaotaiceding。|Bxnntcd。",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "B型钠尿肽测定。"
       }
     ],
@@ -76,31 +252,108 @@
   {
     "children": [
       {
-        "children": [],
+        "search": "baixibaojishu|BAIXIBAOJISHU|baixibaojishu|bxbjs",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "白细胞计数"
       },
       {
-        "children": [],
+        "search": "linbaxibaojishu|LINBAXIBAOJISHU|linbaxibaojishu|lbxbjs",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "淋巴细胞计数"
       },
       {
-        "children": [],
+        "search": "linbaxibaobaifenbi|LINBAXIBAOBAIFENBI|linbaxibaobaifenbi|lbxbbfb",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "淋巴细胞百分比"
       },
       {
-        "children": [],
+        "search": "danhexibaojishu|DANHEXIBAOJISHU|danhexibaojishu|dhxbjs",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "单核细胞计数"
       },
       {
-        "children": [],
+        "search": "danhexibaobaifenbi|DANHEXIBAOBAIFENBI|danhexibaobaifenbi|dhxbbfb",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "单核细胞百分比"
       },
       {
-        "children": [],
+        "search": "xuehongdanbai|XUEHONGDANBAI|xuehongdanbai|xhdb",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "血红蛋白"
       },
       {
-        "children": [],
+        "search": "xuexiaobanjishu。|XUEXIAOBANJISHU。|xuexiaobanjishu。|xxbjs。",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "血小板计数。"
       }
     ],
@@ -109,35 +362,123 @@
   {
     "children": [
       {
-        "children": [],
+        "search": "bingansuananjizhuanyimei|BINGANSUANANJIZHUANYIMEI|bingansuananjizhuanyimei|basajzym",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "丙氨酸氨基转移酶"
       },
       {
-        "children": [],
+        "search": "jianxinglinsuanmei|JIANXINGLINSUANMEI|jianxinglinsuanmei|jxlsm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "碱性磷酸酶"
       },
       {
-        "children": [],
+        "search": "danjianzhimei|DANJIANZHIMEI|danjianzhimei|djzm",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "胆碱酯酶"
       },
       {
-        "children": [],
+        "search": "zongdanhongsuceding|ZONGDANHONGSUCEDING|zongdanhongsuceding|zdhscd",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "总胆红素测定"
       },
       {
-        "children": [],
+        "search": "zhijiedanhongsuceding|ZHIJIEDANHONGSUCEDING|zhijiedanhongsuceding|zjdhscd",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "直接胆红素测定"
       },
       {
-        "children": [],
+        "search": "jianjiedanhongsuceding|JIANJIEDANHONGSUCEDING|jianjiedanhongsuceding|jjdhscd",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "间接胆红素测定"
       },
       {
-        "children": [],
+        "search": "Y-guanxiananzhuanyimei|Y-GUANXIANANZHUANYIMEI|y-guanxiananzhuanyimei|Y-gaxazym",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "Y-谷氨酰胺转移酶"
       },
       {
-        "children": [],
+        "search": "zongdanzhisuan|ZONGDANZHISUAN|zongdanzhisuan|zdzs",
+        "children": [
+          {
+            "label": "偏低"
+          },
+          {
+            "label": "正常"
+          },
+          {
+            "label": "偏高"
+          }
+        ],
         "label": "总胆汁酸"
       }
     ],

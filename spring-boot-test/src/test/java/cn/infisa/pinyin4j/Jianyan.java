@@ -46,13 +46,13 @@ public class Jianyan {
             Map<String, Object> tmap = new HashMap<>();
             fChildren.add(tmap);
             tmap.put("label",arrs[1]);
+            tmap.put("search", h2p.parsePinyin(arrs[1]));
             List<Map<String, Object>> children = new ArrayList<>();
             tmap.put("children",children);
             for(int i=2;i<arrs.length;i++){
                 String skey = arrs[i];
                 Map<String, Object> child = new HashMap();
                 child.put("label", skey);
-                child.put("search", h2p.parsePinyin(skey));
                 children.add(child);
             }
         });
