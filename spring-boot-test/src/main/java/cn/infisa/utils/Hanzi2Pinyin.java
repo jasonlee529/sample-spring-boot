@@ -34,21 +34,17 @@ public class Hanzi2Pinyin {
      * @return 拼音字符串数组
      */
     public String getCharPinYin(char pinYinStr) {
-
         try {
             //执行转换
             pinyin = PinyinHelper.toHanyuPinyinStringArray(pinYinStr, format);
-
         } catch (BadHanyuPinyinOutputFormatCombination e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
-        //pinyin4j规则，当转换的符串不是汉字，就返回null
-        if (pinyin == null|| pinyin.length==0 ) {
-            return  String.valueOf(pinYinStr);
+        //pinyin4j规则，当转换的符串不是汉字，就返回原字符
+        if (pinyin == null || pinyin.length == 0) {
+            return String.valueOf(pinYinStr);
         }
-
         //多音字会返回一个多音字拼音的数组，pinyiin4j并不能有效判断该字的读音
         return pinyin[0];
     }
@@ -64,7 +60,6 @@ public class Hanzi2Pinyin {
         String tempStr = null;
         //循环字符串
         for (int i = 0; i < pinYinStr.length(); i++) {
-
             tempStr = this.getCharPinYin(pinYinStr.charAt(i));
             if (tempStr == null) {
                 //非汉字直接拼接
@@ -73,10 +68,9 @@ public class Hanzi2Pinyin {
                 sb.append(tempStr);
             }
         }
-
         return sb.toString();
-
     }
+
     public String parsePinyin(String in) {
         StringBuilder normal = new StringBuilder();
         StringBuilder uppper = new StringBuilder();
