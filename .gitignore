@@ -1,4 +1,5 @@
 **/.idea
+**/*.txt
 **/*.iml
 **/*.log
 **/target/
