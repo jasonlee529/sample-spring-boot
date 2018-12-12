@@ -2,73 +2,207 @@
   {
     "children": [
       {
-        "children": [],
+        "search": "jisuanjimeitonggongmei|JISUANJIMEITONGGONGM2EI|jisuanjimeitonggongmei|jsjmtgm",
+        "children": [
+          {
+            "label": "0—22"
+          },
+          {
+            "label": "22—44"
+          },
+          {
+            "label": "＞44"
+          }
+        ],
         "label": "肌酸激酶同工酶"
       },
       {
-        "children": [],
+        "search": "cTnT|CTNT|ctnt|cTnT",
+        "children": [
+          {
+            "label": "0—0.1"
+          },
+          {
+            "label": "0.1—0.2"
+          },
+          {
+            "label": "0.2—0.5"
+          },
+          {
+            "label": "＞0.5。"
+          }
+        ],
         "label": "cTnT"
       },
       {
-        "children": [],
+        "search": "cTnI|CTNI|ctni|cTnI",
+        "children": [
+          {
+            "label": "0—0.2"
+          },
+          {
+            "label": "0.2—1.5"
+          },
+          {
+            "label": "＞1.5"
+          }
+        ],
         "label": "cTnI"
       },
       {
-        "children": [],
+        "search": "jisuanjimei|JISUANJIMEI|jisuanjimei|jsjm",
+        "children": [
+          {
+            "label": "0—200U/L"
+          },
+          {
+            "label": "200—400"
+          },
+          {
+            "label": "＞400"
+          }
+        ],
         "label": "肌酸激酶"
       },
       {
-        "children": [],
+        "search": "xuetang|XUETANG|xuetang|xt",
+        "children": [
+          {
+            "label": "3.9—6.1"
+          },
+          {
+            "label": "6.1—7.0"
+          },
+          {
+            "label": "＞7.0"
+          }
+        ],
         "label": "血糖"
       },
       {
-        "children": [],
+        "search": "jigan|JIGAN|jigan|jg",
+        "children": [
+          {
+            "label": "30—133"
+          },
+          {
+            "label": "133—177"
+          },
+          {
+            "label": "177—442"
+          },
+          {
+            "label": "443—707"
+          },
+          {
+            "label": "＞707"
+          }
+        ],
         "label": "肌酐"
+      },
+      {
+        "search": "rusuantuoqingmei|RUSUANTUOQINGMEI|rusuantuoqingmei|rstqm",
+        "children": [
+          {
+            "label": "114—240"
+          },
+          {
+            "label": "＞240"
+          }
+        ],
+        "label": "乳酸脱氢酶"
       }
     ],
-    "label": "常见检验项目"
+    "label": "常规检验"
   },
   {
     "children": [
       {
-        "children": [],
+        "search": "rusuantuoqingmei|RUSUANTUOQINGMEI|rusuantuoqingmei|rstqm",
+        "children": [
+          {
+            "label": "114—240"
+          },
+          {
+            "label": "＞240"
+          }
+        ],
         "label": "乳酸脱氢酶"
       },
       {
-        "children": [],
-        "label": "乳酸脱氢酶"
-      },
-      {
-        "children": [],
+        "search": "jisuanjimeitonggongmei|JISUANJIMEITONGGONGMEI|jisuanjimeitonggongmei|jsjmtgm",
+        "children": [
+          {
+            "label": "0—22"
+          },
+          {
+            "label": "22—44"
+          },
+          {
+            "label": "＞44"
+          }
+        ],
         "label": "肌酸激酶同工酶"
       },
       {
-        "children": [],
+        "search": "jisuanjimei|JISUANJIMEI|jisuanjimei|jsjm",
+        "children": [
+          {
+            "label": "0—200U/L"
+          },
+          {
+            "label": "200—400"
+          },
+          {
+            "label": "＞400"
+          }
+        ],
         "label": "肌酸激酶"
       },
       {
-        "children": [],
-        "label": "a-羟丁酸脱氢酶"
-      },
-      {
-        "children": [],
+        "search": "xuedianfenmei|XUEDIANFENMEI|xuedianfenmei|xdfm",
+        "children": [
+          {
+            "label": "80—180"
+          },
+          {
+            "label": "＞180"
+          }
+        ],
         "label": "血淀粉酶"
       },
       {
-        "children": [],
-        "label": "肌红蛋白"
-      },
-      {
-        "children": [],
+        "search": "jigaidanbaiT|JIGAIDANBAIT|jigaidanbait|jgdbT",
+        "children": [
+          {
+            "label": "0—0.1"
+          },
+          {
+            "label": "0.1—0.2"
+          },
+          {
+            "label": "0.2—0.5"
+          },
+          {
+            "label": "＞0.5"
+          }
+        ],
         "label": "肌钙蛋白T"
       },
       {
-        "children": [],
+        "search": "jigaidanbaiIceding|JIGAIDANBAIICEDING|jigaidanbaiiceding|jgdbIcd",
+        "children": [
+          {
+            "label": "0—0.2"
+          },
+          {
+            "label": "0.2—1.5"
+          },
+          {
+            "label": "＞1.5"
+          }
+        ],
         "label": "肌钙蛋白I测定"
-      },
-      {
-        "children": [],
-        "label": "B型钠尿肽测定。"
       }
     ],
     "label": "酶学检查"
@@ -76,32 +210,88 @@
   {
     "children": [
       {
-        "children": [],
+        "search": "baixibaojishu|BAIXIBAOJISHU|baixibaojishu|bxbjs",
+        "children": [
+          {
+            "label": "3.5—10"
+          },
+          {
+            "label": "＞10"
+          }
+        ],
         "label": "白细胞计数"
       },
       {
-        "children": [],
+        "search": "linbaxibaojishu|LINBAXIBAOJISHU|linbaxibaojishu|lbxbjs",
+        "children": [
+          {
+            "label": "0.8—4"
+          },
+          {
+            "label": "＞4"
+          }
+        ],
         "label": "淋巴细胞计数"
       },
       {
-        "children": [],
+        "search": "linbaxibaobaifenbi|LINBAXIBAOBAIFENBI|linbaxibaobaifenbi|lbxbbfb",
+        "children": [
+          {
+            "label": "0.2—0.4"
+          },
+          {
+            "label": "＞0.4"
+          }
+        ],
         "label": "淋巴细胞百分比"
       },
       {
-        "children": [],
+        "search": "danhexibaojishu|DANHEXIBAOJISHU|danhexibaojishu|dhxbjs",
+        "children": [
+          {
+            "label": "0.3—0.8"
+          },
+          {
+            "label": "＞0.8"
+          }
+        ],
         "label": "单核细胞计数"
       },
       {
-        "children": [],
+        "search": "danhexibaobaifenbi|DANHEXIBAOBAIFENBI|danhexibaobaifenbi|dhxbbfb",
+        "children": [
+          {
+            "label": "0.03—0.08"
+          },
+          {
+            "label": "＞0.08"
+          }
+        ],
         "label": "单核细胞百分比"
       },
       {
-        "children": [],
+        "search": "xuehongdanbai|XUEHONGDANBAI|xuehongdanbai|xhdb",
+        "children": [
+          {
+            "label": "110—150"
+          },
+          {
+            "label": "＞150"
+          }
+        ],
         "label": "血红蛋白"
       },
       {
-        "children": [],
-        "label": "血小板计数。"
+        "search": "xuexiaobanjishu|XUEXIAOBANJISHU|xuexiaobanjishu|xxbjs",
+        "children": [
+          {
+            "label": "100—300"
+          },
+          {
+            "label": "＞300"
+          }
+        ],
+        "label": "血小板计数"
       }
     ],
     "label": "血常规"
@@ -109,35 +299,81 @@
   {
     "children": [
       {
-        "children": [],
+        "search": "bingansuananjizhuanyimei|BINGANSUANANJIZHUANYIMEI|bingansuananjizhuanyimei|basajzym",
+        "children": [
+          {
+            "label": "0—40"
+          },
+          {
+            "label": "40—80"
+          },
+          {
+            "label": "80—400"
+          },
+          {
+            "label": "＞400"
+          }
+        ],
         "label": "丙氨酸氨基转移酶"
       },
       {
-        "children": [],
+        "search": "jianxinglinsuanmei|JIANXINGLINSUANMEI|jianxinglinsuanmei|jxlsm",
+        "children": [
+          {
+            "label": "0—130"
+          },
+          {
+            "label": "＞130"
+          }
+        ],
         "label": "碱性磷酸酶"
       },
       {
-        "children": [],
-        "label": "胆碱酯酶"
-      },
-      {
-        "children": [],
+        "search": "zongdanhongsuceding|ZONGDANHONGSUCEDING|zongdanhongsuceding|zdhscd",
+        "children": [
+          {
+            "label": "0—21"
+          },
+          {
+            "label": "＞21"
+          }
+        ],
         "label": "总胆红素测定"
       },
       {
-        "children": [],
+        "search": "zhijiedanhongsuceding|ZHIJIEDANHONGSUCEDING|zhijiedanhongsuceding|zjdhscd",
+        "children": [
+          {
+            "label": "0—8.6"
+          },
+          {
+            "label": "＞8.6"
+          }
+        ],
         "label": "直接胆红素测定"
       },
       {
-        "children": [],
-        "label": "间接胆红素测定"
-      },
-      {
-        "children": [],
+        "search": "Y-guanxiananzhuanyimei|Y-GUANXIANANZHUANYIMEI|y-guanxiananzhuanyimei|Y-gaxazym",
+        "children": [
+          {
+            "label": "10—50"
+          },
+          {
+            "label": "＞50"
+          }
+        ],
         "label": "Y-谷氨酰胺转移酶"
       },
       {
-        "children": [],
+        "search": "zongdanzhisuan|ZONGDANZHISUAN|zongdanzhisuan|zdzs",
+        "children": [
+          {
+            "label": "0—10"
+          },
+          {
+            "label": "＞10"
+          }
+        ],
         "label": "总胆汁酸"
       }
     ],
