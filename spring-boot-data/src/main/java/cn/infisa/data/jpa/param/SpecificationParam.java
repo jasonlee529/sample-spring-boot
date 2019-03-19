@@ -1,4 +1,4 @@
-package jpa.param;
+package cn.infisa.data.jpa.param;
 
 import com.google.common.collect.Maps;
 

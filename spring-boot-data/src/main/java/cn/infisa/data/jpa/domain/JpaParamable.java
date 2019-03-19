@@ -1,4 +1,5 @@
-package jpa.domain;
+package cn.infisa.data.jpa.domain;
+
 
 import cn.infisa.data.jpa.param.PageParam;
 import cn.infisa.data.jpa.param.SpecificationParam;

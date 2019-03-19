@@ -1,6 +1,6 @@
-package jpa.service;
+package cn.infisa.data.jpa.service;
 
-import cn.infisa.base.model.IdEntity;
+import cn.infisa.data.jpa.core.IdEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.transaction.annotation.Transactional;

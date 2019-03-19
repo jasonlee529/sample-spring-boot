@@ -1,4 +1,4 @@
-package jpa.domain;
+package cn.infisa.data.jpa.domain;
 
 import org.springframework.data.domain.Sort.Direction;
 

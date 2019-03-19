@@ -1,4 +1,4 @@
-package jpa.domain;
+package cn.infisa.data.jpa.domain;
 
 import java.util.Map;
 

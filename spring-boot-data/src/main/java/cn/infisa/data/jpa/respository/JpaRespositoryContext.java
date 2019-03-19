@@ -1,4 +1,4 @@
-package jpa.respository;
+package cn.infisa.data.jpa.respository;
 
 import cn.infisa.data.jpa.core.Identifier;
 import com.google.common.collect.Maps;

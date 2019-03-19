@@ -1,4 +1,4 @@
-package jpa.respository.support;
+package cn.infisa.data.jpa.respository.support;
 
 import cn.infisa.data.jpa.core.Identifier;
 import cn.infisa.data.jpa.domain.JpaParamable;
@@ -34,7 +34,7 @@ public class SimpleJpaService extends JpaRespositoryContext implements JpaServic
      * Saves all given entities
      * 批量保存
      */
-    @Override
+    
     @Transactional
     public <S extends Identifier> List<S> save(Iterable<S> entities) {
         if (entities == null) {
@@ -53,7 +53,7 @@ public class SimpleJpaService extends JpaRespositoryContext implements JpaServic
      * Saves a given entity
      * 单个保存
      */
-    @Override
+    
     @Transactional
     public <S extends Identifier> S save(S entity) {
         return super.getJpaRepository(entity).save(entity);
@@ -63,7 +63,7 @@ public class SimpleJpaService extends JpaRespositoryContext implements JpaServic
      * Retrieves an entity by its id
      * 获取单个
      */
-    @Override
+    
     @SuppressWarnings("unchecked")
     public <S extends Identifier> Optional findOne(Class<?> clazz, Long id) {
         return (Optional) super.getJpaRepository(clazz).findById(id);
@@ -72,13 +72,13 @@ public class SimpleJpaService extends JpaRespositoryContext implements JpaServic
     /**
      * 删除
      */
-    @Override
+    
     @Transactional
     public void delete(Class<?> clazz, Long id) {
         super.getJpaRepository(clazz).deleteById(id);
     }
 
-    @Override
+    
     public <S extends Identifier> void delete(Iterable<S> entities) {
         if (entities == null) {
             new IllegalArgumentException("批量保存集合为null");
@@ -97,7 +97,7 @@ public class SimpleJpaService extends JpaRespositoryContext implements JpaServic
      *
      * @return
      */
-    @Override
+    
     @SuppressWarnings("unchecked")
     public <S extends Identifier> Optional findOne(JpaParamable jpaParam) {
         Specification<Identifier> spec = buildSpecification(jpaParam);
@@ -109,7 +109,7 @@ public class SimpleJpaService extends JpaRespositoryContext implements JpaServic
      *
      * @return
      */
-    @Override
+    
     @SuppressWarnings("unchecked")
     public <S extends Identifier> List<S> findAll(JpaParamable jpaParam) {
         Specification<Identifier> spec = buildSpecification(jpaParam);
@@ -122,7 +122,7 @@ public class SimpleJpaService extends JpaRespositoryContext implements JpaServic
      *
      * @return
      */
-    @Override
+    
     public long count(JpaParamable jpaParam) {
         Specification<Identifier> spec = buildSpecification(jpaParam);
         return super.getJpaSpecificationExecutor(jpaParam.getDominClazz()).count(spec);
@@ -132,7 +132,7 @@ public class SimpleJpaService extends JpaRespositoryContext implements JpaServic
      * Retrieves entity Page
      * 获取分页
      */
-    @Override
+    
     public Page<Identifier> getPage(JpaParamable jpaParam) {
         PageRequest pageRequest = buildPageRequest(jpaParam);
         Specification<Identifier> spec = buildSpecification(jpaParam);

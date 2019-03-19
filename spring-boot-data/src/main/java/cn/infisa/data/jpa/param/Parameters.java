@@ -1,4 +1,4 @@
-package jpa.param;
+package cn.infisa.data.jpa.param;
 
 import cn.infisa.data.jpa.domain.JpaParamable;
 import cn.infisa.data.jpa.param.assemble.SearchFilter;
@@ -35,7 +35,7 @@ public interface Parameters extends JpaParamable {
     /**
      * 添加pojo参数class
      *
-     * @param calzz
+     * @param clazz
      * @return
      */
     Parameters addClass(Class<?> clazz);
@@ -62,7 +62,6 @@ public interface Parameters extends JpaParamable {
      * 一般只给http协议返回map使用
      *
      * @param filter
-     * @see org.springside.modules.web.Servlets.getParametersStartingWith(ServletRequest request, String prefix)
      */
     Parameters addFilter(Map<String, Object> filter);
 
