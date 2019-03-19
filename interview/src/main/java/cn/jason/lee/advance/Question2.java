@@ -1,16 +1,13 @@
 package cn.jason.lee.advance;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 路径规划
  */
 public class Question2 {
 
-
+    static Map<List<Link>, Integer> paths = new HashMap<List<Link>, Integer>();
     public static void main(String[] args) {
         List<Node> nodes = new ArrayList<Node>() {
             {
@@ -44,7 +41,6 @@ public class Question2 {
         String end = "C";
         int w = 0;
         List<Link> path = new ArrayList<Link>();
-        Map<List<Link>, Integer> paths = new HashMap<List<Link>, Integer>();
         Node beginNode = null;
         Node endNode = null;
         for (Node node : nodes) {
@@ -55,27 +51,38 @@ public class Question2 {
                 endNode = node;
             }
         }
-        generate(nodeIndex,beginNode,endNode,path);
+        generate(nodeIndex, beginNode, endNode, path,new LinkedList<Node>());
 
     }
 
     /**
      * 改为深度有限搜索算法实现
+     *
      * @param nodeIndex
      * @param curent
      * @param dest
      * @param parent
      */
-    static void generate(Map<Node, List<Link>> nodeIndex, Node curent,Node dest, List<Link> parent) {
+    static void generate(Map<Node, List<Link>> nodeIndex, Node curent, Node dest, List<Link> parent, Queue<Node> visited) {
         System.out.println(curent.name);
+        if(visited.contains(curent)){
+            return ;
+        }
+        visited.add(curent);
         List<Link> currentLinks = nodeIndex.get(curent);
-        for(Link link : currentLinks){
+        for (Link link : currentLinks) {
             parent.add(link);
-            if(link.dest.equals(dest.name)){
-                System.out.println(parent.toString());
+            if (link.destName.equals(dest.name)) {
+                visited.add(dest);
+                int weight = 0;
+                for(Node n : visited){
+                    weight += n.weight;
+                }
+                paths.put(parent,weight);
+                System.out.println(visited.toString()+"==="+weight);
                 break;
-            }else{
-                generate(nodeIndex,link.dest,dest,parent);
+            } else {
+                generate(nodeIndex, link.dest, dest, parent,visited);
             }
         }
     }

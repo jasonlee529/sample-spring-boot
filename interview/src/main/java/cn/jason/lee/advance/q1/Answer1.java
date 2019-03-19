@@ -67,12 +67,20 @@ public class Answer1 {
             sb.append(seq);
             seq = "";
             for (String key : map.keySet()) {
-                sb.append(seq).append(key).append(EQ).append(map.get(key));
-                seq = SEMI;
+                if(isValid(key) && isValid(map.get(key))){
+                    sb.append(seq).append(key).append(EQ).append(map.get(key));
+                    seq = SEMI;
+                }else{
+                    throw new IllegalArgumentException(key+" or "+map.get(key));
+                }
             }
             seq = LINE;
         }
         return sb.toString();
+    }
+
+    private static boolean isValid(String key) {
+        return !(EQ.equals(key) || SEMI.equals(key) || LINE.equals(key));
     }
 
     /**
