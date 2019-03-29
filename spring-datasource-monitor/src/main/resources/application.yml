@@ -1,0 +1,12 @@
+spring:
+  aop:
+    proxy-target-class: true
+  jpa:
+    open-in-view: false
+  datasource:
+    druid:
+      web-stat-filter:
+        enabled: true
+      stat-view-servlet:
+        enabled: true
+      validation-query: select version()
