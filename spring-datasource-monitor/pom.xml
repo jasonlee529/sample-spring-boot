@@ -71,17 +71,6 @@
         </dependency>
 
     </dependencies>
-    <repositories>
-        <repository>
-            <id>nexus</id>
-            <name>infisa nexus Repository</name>
-            <url>http://192.168.1.62:8081/nexus/content/groups/public/</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
