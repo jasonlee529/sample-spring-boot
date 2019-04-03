@@ -17,4 +17,11 @@ public interface PersonRepository extends PagingAndSortingRepository<Person, Lon
 
     @RestResource(path = "nameStartsWith", rel = "nameStartsWith")
     List<Person> findByNameStartsWith(@Param("name") String name);
+
+
+    /**
+     * delete url 无法暴露出去
+     */
+//    @RestResource(path = "deleteByName", rel = "deleteByName")
+//    List<Person> deleteByName(@Param("name") String name);
 }
