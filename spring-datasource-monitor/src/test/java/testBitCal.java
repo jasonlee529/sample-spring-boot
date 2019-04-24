@@ -34,6 +34,9 @@ public class testBitCal {
     @Test
     public void testPut() {
         Map map = new HashMap();
-        map.put("abc", "32");
+        for (int i = 0; i < 100; i++) {
+            int slot = 3;
+            map.put(i * 16 + 3, i);
+        }
     }
 }
