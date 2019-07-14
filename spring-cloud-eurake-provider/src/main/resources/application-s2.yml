@@ -8,4 +8,4 @@ eureka:
     service-url:
       defaultZone: http://${eureka.registry.hostname1}:${eureka.registry.port1}/eureka/,http://${eureka.registry.hostname2}:${eureka.registry.port2}/eureka/
 server:
-  port: 1113
+  port: 1114
