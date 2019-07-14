@@ -1,8 +1,8 @@
 eureka:
   registry:
-    hostname1: localhost
+    hostname1: peer1
     port1: 1111
-    hostname2: localhost
+    hostname2: peer2
     port2: 1112
   client:
     service-url:
