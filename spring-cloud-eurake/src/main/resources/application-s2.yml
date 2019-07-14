@@ -2,7 +2,7 @@ server:
   port: 1112
 eureka:
   registry:
-    hostname: localhost
+    hostname: peer1
     port: 1111
   client:
     fetch-registry: true
@@ -10,5 +10,4 @@ eureka:
     service-url:
       defaultZone: http://${eureka.registry.hostname}:${eureka.registry.port}/eureka/
   instance:
-    hostname: localhost
-
+    hostname: peer2
