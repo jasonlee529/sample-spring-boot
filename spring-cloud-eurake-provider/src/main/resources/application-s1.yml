@@ -1,0 +1,8 @@
+spring.application.name=hello-service
+eureka.client.serviceUrl.defaultZone=http://localhost:1111/eureka/,http://localhost:1112/eureka/
+
+
+eureka:
+  registry:
+    hostname: localhost
+    port : 1112
