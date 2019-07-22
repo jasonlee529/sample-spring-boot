@@ -1,0 +1,11 @@
+eureka:
+  registry:
+    hostname1: peer1
+    port1: 1111
+    hostname2: peer2
+    port2: 1112
+  client:
+    service-url:
+      defaultZone: http://${eureka.registry.hostname1}:${eureka.registry.port1}/eureka/,http://${eureka.registry.hostname2}:${eureka.registry.port2}/eureka/
+server:
+  port: 1114
