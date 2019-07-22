@@ -1,14 +1,13 @@
 eureka:
   registry:
-    hostname1: localhost
-    port1: 1111
-    hostname2: localhost
-    port2: 1112
+    instance[0] :
+      hostname : peer1
+      port : 1111
   client:
     service-url:
-      defaultZone: http://${eureka.registry.hostname1}:${eureka.registry.port1}/eureka/,http://${eureka.registry.hostname2}:${eureka.registry.port2}/eureka/
+      defaultZone: http://${eureka.registry.instance[0].hostname}:${eureka.registry.instance[0].port}/eureka/
 server:
-  port: 1113
+  port: 1115
 spring:
   application:
-    name: ribbon-consumer
+    name: feign-consumer
