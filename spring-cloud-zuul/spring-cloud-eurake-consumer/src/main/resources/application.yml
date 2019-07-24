@@ -1,0 +1,12 @@
+eureka:
+  registry:
+    hostname1: localhost
+    port1: 1111
+  client:
+    service-url:
+      defaultZone: http://${eureka.registry.hostname1}:${eureka.registry.port1}/eureka/
+server:
+  port: 1115
+spring:
+  application:
+    name: service-consumer

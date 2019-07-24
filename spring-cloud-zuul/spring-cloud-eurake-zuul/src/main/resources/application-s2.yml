@@ -1,0 +1,13 @@
+server:
+  port: 1112
+eureka:
+  registry:
+    hostname: peer1
+    port: 1111
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://${eureka.registry.hostname}:${eureka.registry.port}/eureka/
+  instance:
+    hostname: peer2

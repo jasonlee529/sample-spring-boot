@@ -1,0 +1,21 @@
+server:
+  port: 1117
+eureka:
+  registry:
+    instance[0]:
+      hostname: peer1
+      port: 1111
+  client:
+    service-url:
+      defaultZone: http://${eureka.registry.instance[0].hostname}:${eureka.registry.instance[0].port}/eureka/
+spring:
+  application:
+    name: eureka-zuul
+zuul:
+  routes:
+    api-b:
+      path: /provider/**
+      serviceId: hello-services
+    api-c:
+      path: /consumer/**
+      serviceId: service-consumer
