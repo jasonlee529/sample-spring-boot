@@ -12,7 +12,7 @@ public class HelloService {
     private RestTemplate restTemplate;
 
     public String sayHello() {
-        return restTemplate.getForEntity("http://hello-services/hello", String.class).getBody();
+        return restTemplate.getForEntity("http://SERVICE-provider/hello", String.class).getBody();
     }
 
     public String helloFallback() {
@@ -20,6 +20,6 @@ public class HelloService {
     }
 
     public List<String> info() {
-        return restTemplate.getForEntity("http://hello-services/info", List.class).getBody();
+        return restTemplate.getForEntity("http://SERVICE-provider/info", List.class).getBody();
     }
 }
