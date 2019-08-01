@@ -15,7 +15,7 @@ zuul:
   routes:
     api-b:
       path: /provider/**
-      serviceId: hello-services
+      serviceId: SERVICE-provider
     api-c:
       path: /consumer/**
       serviceId: service-consumer
